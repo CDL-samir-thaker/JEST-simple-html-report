@@ -1,0 +1,22 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "this is a test jest report",
+  "main": "sum.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.1.2",
+    "jest-html-reporter": "^3.7.0"
+  },
+  "jest-html-reporter": {
+    "pageTitle": "Unit Tests",
+    "outputPath": "./test-report.html",
+    "includeFailureMsg": true
+  }, "jest": {
+    "testResultsProcessor": "./node_modules/jest-html-reporter"
+  }
+}
