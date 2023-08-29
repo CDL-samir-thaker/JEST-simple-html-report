@@ -13,8 +13,8 @@
     "jest-html-reporter": "^3.10.2"
   },
   "jest-html-reporter": {
-    "pageTitle": "Unit Tests",
-    "outputPath": "./test-report.html",
+    "pageTitle": "JEST Tests",
+    "outputPath": "./html-report/test-report.html",
     "includeFailureMsg": true
   }, "jest": {
     "testResultsProcessor": "./node_modules/jest-html-reporter"
